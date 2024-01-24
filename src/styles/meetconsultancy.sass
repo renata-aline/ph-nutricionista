@@ -1,11 +1,11 @@
 @use 'variables'
 @use 'mixins'
 
-.about-consultation
+.consultancy
     @include mixins.center
     flex-direction: column
     text-align: center
-    background: variables.$bg-color
+    background: variables.$bg-color-secundary
     color: variables.$text-color
 
     h2
@@ -14,15 +14,3 @@
     video
         @include mixins.video
         border: 2px solid variables.$text-color-secundary
-
-.about-service
-
-    ul
-        margin: 10px 0
-        padding: 0 0 20px 70px
-
-        li
-            display: flex
-            align-items: center
-            font-size: 14px
-            margin: 5px 0 8px 0

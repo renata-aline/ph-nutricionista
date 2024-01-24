@@ -2,6 +2,7 @@
 import AboutConsultation from "./components/AboutConsultation";
 import AboutContent from "./components/AboutContent";
 import Banner from "./components/Banner";
+import MeetConsultancy from "./components/MeetConsultancy";
 import Navbar from "./components/Navbar";
 import "./styles/main.sass";
 
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <AboutContent />
       <AboutConsultation />
+      <MeetConsultancy />
     </div>
   );
 }

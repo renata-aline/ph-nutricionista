@@ -7,6 +7,7 @@ import './styles/banner.sass';
 import './styles/navbar.sass';
 import './styles/aboutcontent.sass';
 import './styles/aboutconsultation.sass';
+import './styles/meetconsultancy.sass';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
