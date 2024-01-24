@@ -1,4 +1,6 @@
 // import './App.css';
+import AboutConsultation from "./components/AboutConsultation";
+import AboutContent from "./components/AboutContent";
 import Banner from "./components/Banner";
 import Navbar from "./components/Navbar";
 import "./styles/main.sass";
@@ -8,6 +10,8 @@ function App() {
     <div className="App">
       < Navbar />
       <Banner />
+      <AboutContent />
+      <AboutConsultation />
     </div>
   );
 }

@@ -5,6 +5,8 @@ import App from './App';
 
 import './styles/banner.sass';
 import './styles/navbar.sass';
+import './styles/aboutcontent.sass';
+import './styles/aboutconsultation.sass';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
