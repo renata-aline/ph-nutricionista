@@ -1,9 +1,20 @@
 const AboutConsultation = () => {
   return (
-    <section className="aboutconsultation">
-      <p>Como Funciona a Consulta</p>
+    <section className="about-consultation">
+      <div>
+        <h2>Como Funciona a Consulta</h2>
+        <video src="./assets/videos/teste.mp4" controls autoPlay muted></video>
+      </div>
 
-      <video src="./assets/videos/teste.mp4" controls autoPlay muted></video>
+      <h2>O que está incluso no atendimento?</h2>
+      <div className="about-service">
+        <ul>
+          <li>Planos alimentares individualizados</li>
+          <li>Lista de substituição</li>
+          <li>Suporte on-line pos consulta</li>
+          <li>Entrego seu plano alimentar no dia da consulta</li>
+        </ul>
+      </div>
     </section>
   );
 };
