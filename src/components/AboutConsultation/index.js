@@ -9,6 +9,8 @@ const AboutConsultation = () => {
       <h2>O que está incluso no atendimento?</h2>
       <div className="about-service">
         <ul>
+          <li>Consulta completa</li> 
+          <li>Avaliação corporal</li>  
           <li>Planos alimentares individualizados</li>
           <li>Lista de substituição</li>
           <li>Suporte on-line pos consulta</li>

@@ -8,6 +8,8 @@ import './styles/navbar.sass';
 import './styles/aboutcontent.sass';
 import './styles/aboutconsultation.sass';
 import './styles/meetconsultancy.sass';
+import './styles/doubts.sass';
+import './styles/contact.sass';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
