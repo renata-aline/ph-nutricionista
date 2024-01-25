@@ -10,7 +10,7 @@ import './styles/aboutconsultation.sass';
 import './styles/meetconsultancy.sass';
 import './styles/doubts.sass';
 import './styles/contact.sass';
-import './styles/accordion.sass';
+import './styles/footer.sass';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

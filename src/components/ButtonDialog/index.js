@@ -94,10 +94,10 @@ export default function CustomizedDialogs() {
         <DialogContent dividers  sx={{bgcolor:'#322f39 '}} >
           <Typography gutterBottom sx={{ m: 0, p: 1, color: '#fff',bgcolor:'#322f39 '}} >
             <ul>
-              <li>especialista em nutricao</li>
-              <li>especialista em nutricao</li>
-              <li>especialista em nutricao</li>
-              <li>especialista em nutricao</li>
+              <li>Formado em nutricao esportiva</li>
+              <li>Formado em nutricao esportiva </li>
+              <li>Formado em nutricao esportiva </li>
+              <li>Formado em nutricao esportiva </li>
             </ul>
           </Typography>
           

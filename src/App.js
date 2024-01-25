@@ -4,6 +4,7 @@ import AboutContent from "./components/AboutContent";
 import Banner from "./components/Banner";
 import Contact from "./components/Contact";
 import Doubts from "./components/Doubts";
+import Footer from "./components/Footer";
 import MeetConsultancy from "./components/MeetConsultancy";
 import Navbar from "./components/Navbar";
 import "./styles/main.sass";
@@ -18,6 +19,7 @@ function App() {
       <MeetConsultancy />
       <Doubts />
       <Contact />
+      <Footer />
     </div>
   );
 }
