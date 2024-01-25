@@ -1,9 +1,10 @@
+import Accordion from "../Accordion";
+
 const Doubts = () => {
     return(
         <section className="doubts">
-            <h2>teste</h2>
-            <p>tetetetetetettet</p>
-
+            <h2>Dúvidas Frequentes</h2>
+            <Accordion />
         </section>
     )
 }

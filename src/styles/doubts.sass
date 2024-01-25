@@ -1,5 +1,11 @@
 @use 'variables'
+@use 'mixins'
 
 .doubts
     background: variables.$bg-color
     color: variables.$text-color
+    padding-bottom: 20px
+
+    h2
+        @include mixins.caption
+        
