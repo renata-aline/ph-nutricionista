@@ -1,6 +1,8 @@
 @use 'variables'
 @use 'mixins'
 .about
+    @include mixins.center
+    flex-direction: column
     height: 300px
     background: variables.$bg-color-secundary
     color: variables.$text-color
