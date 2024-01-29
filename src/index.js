@@ -12,6 +12,7 @@ import './styles/doubts.sass';
 import './styles/contact.sass';
 import './styles/footer.sass';
 import './styles/navbar.sass';
+import './styles/service.sass';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

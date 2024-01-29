@@ -40,7 +40,7 @@ export default function AccordionUsage() {
         >
           <AccordionSummary
             sx={{
-              bgcolor: "#000",
+              bgcolor: "",
               color: "#fff",
               border: "1px solid #9c5d41",
               borderRadius: "8px",

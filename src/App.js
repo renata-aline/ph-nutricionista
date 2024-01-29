@@ -7,17 +7,19 @@ import Doubts from "./components/Doubts";
 import Footer from "./components/Footer";
 import MeetConsultancy from "./components/MeetConsultancy";
 import Navbar from "./components/Navbar";
+import Service from "./components/Service";
 import "./styles/main.sass";
 
 function App() {
   return (
     <div className="App">
-      < Navbar />
+      <Navbar />
       <Banner />
       <AboutContent />
       <AboutConsultation />
-      <MeetConsultancy />
+      <Service />
       <Doubts />
+      <MeetConsultancy />
       <Contact />
       <Footer />
     </div>

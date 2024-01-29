@@ -24,12 +24,17 @@ const Menu = () => {
               <a href="">Como Funciona a Consulta</a>
             </li>
             <li>
+              <a href="">Serviços</a>
+            </li>
+            <li>
               <a href="">Dúvidas Frequentes</a>
             </li>
             <li>
-              <a href="">Conheça o Escritório</a>
+              <a href="">Conheça o Consultório</a>
             </li>
-            <li>{/* <Link to="/contact">Contato</Link> */}</li>
+            <li>
+            <a href="">Contato</a>
+            </li>
           </ul>
         </div>
       )}
