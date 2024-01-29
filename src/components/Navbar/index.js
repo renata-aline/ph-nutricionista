@@ -1,11 +1,11 @@
-import MenuIcon from "@mui/icons-material/Menu";
+
+import Menu from "../Menu";
+
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <button>
-        <MenuIcon />
-      </button>
+     <Menu />
     </nav>
   );
 };

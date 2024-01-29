@@ -53,8 +53,8 @@ export default function AccordionUsage() {
           </AccordionSummary>
           <AccordionDetails
             sx={{
-              bgcolor: "#000",
-              color: "#9c5d41",
+              bgcolor: "#322f39",
+              color: "#fff",
               border: "1px solid #9c5d41",
               borderTop: "none",
               borderRadius: "0 0 8px 8px",
