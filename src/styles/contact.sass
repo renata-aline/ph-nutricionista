@@ -9,6 +9,12 @@
     h2
         @include mixins.caption
 
+        @media (min-width: 768px)
+            font-size: 24px
+
+        @media (min-width: 1024px)
+            font-size: 30px
+
 .contact-address
     @include mixins.center
     flex-direction: column
@@ -18,10 +24,23 @@
         text-align: center
         margin-bottom: 20px
 
+        @media (min-width: 768px)
+            font-size: 16px
+
+        @media (min-width: 1024px)
+            font-size: 18px
+
     iframe
         width: 80%
         height: 200px
         margin-bottom: 20px
+
+        @media (min-width: 768px)
+            height: 250px
+
+        @media (min-width: 1024px)
+            width: 90%
+            height: 350px
 
 .contacts-social-media
     @include mixins.center
@@ -30,6 +49,14 @@
     gap: 20px
     padding: 8px 16px
     cursor: pointer
+
+    @media (min-width: 768px)
+        font-size: 45px
+        gap: 40px
+
+        // @media (min-width: 1024px)
+        //     width: 90%
+        //     height: 350px
 
     .social-media-icon
         color: variables.$text-color-secundary

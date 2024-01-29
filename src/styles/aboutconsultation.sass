@@ -8,21 +8,45 @@
     background: variables.$bg-color
     color: variables.$text-color
 
+    @media (min-width: 768px)
+        padding: 18px
+
     h2
         @include mixins.caption
+
+        @media (min-width: 768px)
+            font-size: 24px
+
+        @media (min-width: 1024px)
+            font-size: 30px
 
     video
         @include mixins.video
         border: 2px solid variables.$text-color-secundary
 
+    // p
+    //   padding: 16px
+
+    //   @media (min-width: 768px)
+    //         font-size: 24px
+
+
 .about-service
+
+    @media (min-width: 1024px)
+        display: block
 
     ul
         margin: 10px 0
         padding: 0 0 20px 70px
+
+
 
         li
             display: flex
             align-items: center
             font-size: 14px
             margin: 5px 0 8px 0
+
+            @media (min-width: 768px)
+                font-size: 18px
