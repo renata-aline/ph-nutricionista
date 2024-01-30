@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ph-nutricionista/static/css/main.f079dfb6.css",
+    "main.js": "/ph-nutricionista/static/js/main.09aa6907.js",
+    "index.html": "/ph-nutricionista/index.html",
+    "main.f079dfb6.css.map": "/ph-nutricionista/static/css/main.f079dfb6.css.map",
+    "main.09aa6907.js.map": "/ph-nutricionista/static/js/main.09aa6907.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f079dfb6.css",
+    "static/js/main.09aa6907.js"
+  ]
+}
