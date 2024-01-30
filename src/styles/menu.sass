@@ -1,17 +1,6 @@
 @use'variables'
 @use'mixins'
 
-.menu::after
-    content: " "
-    background: rgba(132, 136,136,0.5)
-    display: block
-    width: 100%
-    height: 100%
-    position: fixed
-    top: 56px
-    left: 0
-    z-index: 10
-
 .button-action
 
     background: none
@@ -24,16 +13,27 @@
     :hover
         color: variables.$text-color-secundary
 
+    .menu-icon
+        font-size: 24px
+
+        @media (min-width: 1024px)
+            font-size: 35px
+
+
+
 .menu-list
     background: variables.$bg-color-secundary
     width: 100%
-    position: absolute
+    position: fixed
     top: 56px
     left: 0
     right: 0
     padding: 8px
     list-style: none
     z-index: 20
+
+    @media (min-width: 1024px)
+        top: 60px
 
     li
         padding: 5px

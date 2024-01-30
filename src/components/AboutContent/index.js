@@ -2,7 +2,7 @@ import ButtonDialog from "../ButtonDialog";
 
 const AboutContent = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <h2>Sobre Mim</h2>
       <div className="about-information">
         <img src="./assets/foto-ph.png" alt="foto nutricionista pablo" />

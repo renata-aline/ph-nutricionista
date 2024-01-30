@@ -1,6 +1,6 @@
 const AboutConsultation = () => {
   return (
-    <section className="about-consultation">
+    <section className="about-consultation" id="consultation">
       <div>
         <h2>Como Funciona a Consulta?</h2>
         <video src="./assets/videos/teste.mp4" controls autoPlay muted></video>

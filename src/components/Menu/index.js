@@ -1,4 +1,4 @@
-//  import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 const Menu = () => {
@@ -7,33 +7,36 @@ const Menu = () => {
 
   return (
     <>
+    
       <button
         onClick={() => setToggle(!isToggle)}
         className="button-action"
         type="button"
       >
-        <MenuIcon />
+        <MenuIcon fontSize="inherit" className="menu-icon"/>
       </button>
       {isToggle && (
         <div className="menu">
-          <ul className="menu-list">
+          <ul className="menu-list"
+          onClick={() => setToggle(!isToggle)}
+          >
             <li>
-              <a href="">Sobre Mim</a>
+              <a href="/#about"  rel="noreferrer">Sobre Mim</a>
             </li>
             <li>
-              <a href="">Como Funciona a Consulta</a>
+              <a href="/#consultation"  rel="noreferrer">Como Funciona a Consulta</a>
             </li>
             <li>
-              <a href="">Serviços</a>
+              <a href="/#services"  rel="noreferrer">Serviços</a>
             </li>
             <li>
-              <a href="">Dúvidas Frequentes</a>
+              <a href="/#duvidas-frequentes"  rel="noreferrer">Dúvidas Frequentes</a>
             </li>
             <li>
-              <a href="">Conheça o Consultório</a>
+              <a href="/#meet-consultancy"  rel="noreferrer">Conheça o Consultório</a>
             </li>
             <li>
-            <a href="">Contato</a>
+            <a href="/#contact"  rel="noreferrer">Contato</a>
             </li>
           </ul>
         </div>

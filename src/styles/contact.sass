@@ -45,7 +45,6 @@
 .contacts-social-media
     @include mixins.center
     justify-content: center
-    font-size: 40px
     gap: 20px
     padding: 8px 16px
     cursor: pointer
@@ -54,12 +53,17 @@
         font-size: 45px
         gap: 40px
 
-        // @media (min-width: 1024px)
-        //     width: 90%
-        //     height: 350px
 
-    .social-media-icon
+    .social-media-icon-mail
+        font-size: 45px
         color: variables.$text-color-secundary
+
+        :hover
+            color: variables.$text-color
+            
+    .social-media-icon-insta
+        color: variables.$text-color-secundary
+        font-size: 40px
 
         :hover
             color: variables.$text-color

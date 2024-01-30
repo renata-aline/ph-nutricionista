@@ -67,7 +67,7 @@ export default function CustomizedDialogs() {
 
   return (
     <React.Fragment>
-      <Button variant="outlined" onClick={handleClickOpen} sx={{color: '#fff', border: '1px solid #9c5d41',fontSize: '12px',borderRadius:'8px',mt:'30px'}}>
+      <Button variant="" onClick={handleClickOpen} sx={{color: '#fff', border: '1px solid #9c5d41',fontSize: '12px',borderRadius:'8px',mt:'30px'}}>
         Formação
       </Button>
       <BootstrapDialog 

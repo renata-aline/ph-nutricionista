@@ -22,6 +22,7 @@ function App() {
       <MeetConsultancy />
       <Contact />
       <Footer />
+     
     </div>
   );
 }

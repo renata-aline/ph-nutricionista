@@ -4,7 +4,10 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-export default function AccordionUsage() {
+import { positions } from '@mui/system';
+
+
+export default function AccordionUsage () {
   const items = [
     {
       id: "1",
@@ -33,37 +36,45 @@ export default function AccordionUsage() {
   ];
 
   return (
-    <div className="accordion">
-      {items.map((item, index) => (
-        <Accordion
-          sx={{ borderColor: "#9c5d41", bgcolor: "#000", padding: "10px 16px" }}
+  <div className="accordion">
+    {items.map((item, index) => (
+      <Accordion 
+        sx={{
+          borderColor: "#9c5d41",
+          bgcolor: "#000",
+          padding: "10px 16px",
+          fontSize: "18px",
+          
+        }}
+      >
+        <AccordionSummary
+          sx={{
+            bgcolor: "",
+            color: "#fff",
+            border: "1px solid #9c5d41",
+            borderRadius: "8px",
+            width: "auto",
+          }}
+          expandIcon={<ExpandMoreIcon sx={{ color: "#fff" }} />}
+          aria-controls={`panel${index}-content`}
+          id={`panel${index}-header`}
+          key={item.id}
         >
-          <AccordionSummary
-            sx={{
-              bgcolor: "",
-              color: "#fff",
-              border: "1px solid #9c5d41",
-              borderRadius: "8px",
-            }}
-            expandIcon={<ExpandMoreIcon sx={{ color: "#fff" }} />}
-            aria-controls={`panel${index}-content`}
-            id={`panel${index}-header`}
-          >
-            {item.titulo}
-          </AccordionSummary>
-          <AccordionDetails
-            sx={{
-              bgcolor: "#322f39",
-              color: "#fff",
-              border: "1px solid #9c5d41",
-              borderTop: "none",
-              borderRadius: "0 0 8px 8px",
-            }}
-          >
-            {item.description}
-          </AccordionDetails>
-        </Accordion>
-      ))}
-    </div>
-  );
+          {item.titulo}
+        </AccordionSummary>
+        <AccordionDetails
+          sx={{
+            bgcolor: "#322f39",
+            color: "#fff",
+            border: "1px solid #9c5d41",
+            borderTop: "none",
+            borderRadius: "0 0 8px 8px",
+          }}
+        >
+          {item.description}
+        </AccordionDetails>
+      </Accordion>
+    ))}
+  </div>
+  )
 }
