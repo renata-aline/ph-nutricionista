@@ -21,22 +21,22 @@ const Menu = () => {
           onClick={() => setToggle(!isToggle)}
           >
             <li>
-              <a href="/#about"  rel="noreferrer">Sobre Mim</a>
+              <a href="#about"  rel="noreferrer">Sobre Mim</a>
             </li>
             <li>
-              <a href="/#consultation"  rel="noreferrer">Como Funciona a Consulta</a>
+              <a href="#consultation"  rel="noreferrer">Como Funciona a Consulta</a>
             </li>
             <li>
-              <a href="/#services"  rel="noreferrer">Serviços</a>
+              <a href="#services"  rel="noreferrer">Serviços</a>
             </li>
             <li>
-              <a href="/#duvidas-frequentes"  rel="noreferrer">Dúvidas Frequentes</a>
+              <a href="#duvidas-frequentes"  rel="noreferrer">Dúvidas Frequentes</a>
             </li>
             <li>
-              <a href="/#meet-consultancy"  rel="noreferrer">Conheça o Consultório</a>
+              <a href="#meet-consultancy"  rel="noreferrer">Conheça o Consultório</a>
             </li>
             <li>
-            <a href="/#contact"  rel="noreferrer">Contato</a>
+            <a href="#contact"  rel="noreferrer">Contato</a>
             </li>
           </ul>
         </div>
