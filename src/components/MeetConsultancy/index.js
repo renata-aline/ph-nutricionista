@@ -3,7 +3,7 @@ const MeetConsultancy = () => {
     <section className="consultancy" id="meet-consultancy">
       <div>
         <h2>Conheça Meu Consultório!</h2>
-        <video src="./assets/videos/teste.mp4" controls autoPlay muted></video>
+        <video src="ph-nutricionista/assets/videos/teste.mp4" controls autoPlay muted></video>
       </div>
     </section>
   );
