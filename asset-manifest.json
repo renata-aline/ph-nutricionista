@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ph-nutricionista/static/css/main.f079dfb6.css",
-    "main.js": "/ph-nutricionista/static/js/main.115aaeca.js",
+    "main.css": "/ph-nutricionista/static/css/main.809230a3.css",
+    "main.js": "/ph-nutricionista/static/js/main.54d99edd.js",
     "index.html": "/ph-nutricionista/index.html",
-    "main.f079dfb6.css.map": "/ph-nutricionista/static/css/main.f079dfb6.css.map",
-    "main.115aaeca.js.map": "/ph-nutricionista/static/js/main.115aaeca.js.map"
+    "main.809230a3.css.map": "/ph-nutricionista/static/css/main.809230a3.css.map",
+    "main.54d99edd.js.map": "/ph-nutricionista/static/js/main.54d99edd.js.map"
   },
   "entrypoints": [
-    "static/css/main.f079dfb6.css",
-    "static/js/main.115aaeca.js"
+    "static/css/main.809230a3.css",
+    "static/js/main.54d99edd.js"
   ]
 }
