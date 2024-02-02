@@ -3,7 +3,6 @@
 .about
     @include mixins.center
     flex-direction: column
-    padding: 10px 8px 20px 8px
     background: variables.$bg-color-secundary
     color: variables.$text-color
 
@@ -20,7 +19,7 @@
             font-size: 30px
 
 .about-information
-    @include mixins.center
+    display: flex
     justify-content: space-between
     gap: 10px
 
@@ -52,7 +51,7 @@
             font-size: 16px
 
     img
-        margin: 0 20px 0 16px
+        margin-right: 20px 
         border-radius: 50%
         border: 1px solid variables.$text-color-secundary
 

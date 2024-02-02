@@ -5,7 +5,7 @@ const AboutContent = () => {
     <section className="about" id="about">
       <h2>Sobre Mim</h2>
       <div className="about-information">
-        <img src="./assets/foto-ph.png" alt="foto nutricionista pablo" />
+        <img src="ph-nutricionista/assets/foto-ph.png" alt="foto nutricionista pablo" />
         <div>
           <h1>
             Pablo henrique <span>Nutricionista</span>
